@@ -1,4 +1,4 @@
-namespace utils
+namespace qr_app.utils
 {
 	public enum ErrorCorrectionLvL
 	{

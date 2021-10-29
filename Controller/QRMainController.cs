@@ -1,20 +1,20 @@
-using View;
-using Model;
-using Controller;
+using qr_app.ViewModels;
+using qr_app.Model;
+using qr_app.Controller;
 
-namespace Controller
+namespace qr_app.Controller
 {
 	public class QRMainController
 	{
-		private MainWindowView mainWindowView;
+		private MainWindowViewModel mainWindowView;
 
-		private QRCode qRCode;
+		private QRCode qrCode;
 
 		private IOController iOController;
 
-		private QRPreparerController qRPreparerController;
+		private QRPreparerController qrPreparerController;
 
-		private QRWriterController qRWriterController;
+		private QRWriterController qrWriterRontroller;
 
 		private BinaryComputeController binaryComputeController;
 

@@ -1,10 +1,10 @@
-using Controller;
+using qr_app.Controller;
 
-namespace Controller
+namespace qr_app.Controller
 {
 	public class BinaryComputeController
 	{
-		private QRMainController qRMainController;
+		private QRMainController qrMainController;
 
 	}
 

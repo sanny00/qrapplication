@@ -1,8 +1,8 @@
 using System;
-using Model;
-using utils;
+using qr_app.Model;
+using qr_app.utils;
 
-namespace Model
+namespace qr_app.Model
 {
 	public class QRCode
 	{
